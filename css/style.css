@@ -55,9 +55,33 @@ header{
     background-color: var(--grey);
     color: #ffffff;
     justify-content: flex-end;
-    color: var(--red)
+    color: var(--red);
+    justify-content: space-between;
 
 }
+
+    /* Profile Picture along with name */
+    header div{
+
+        display: flex;
+        align-items: center;
+
+    }
+
+        header div h2{
+
+            font-size: 30px;
+
+        }
+
+        header div img{
+
+            height: 80px;
+            width: 80px;
+            border-radius: 100px;
+            margin-left: 20px;
+
+        }
 
     header h1{
 
@@ -78,6 +102,7 @@ header{
             display: flex;
             flex-direction: row;
             align-items: center;
+            height: 100%;
             
 
         }
