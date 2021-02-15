@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+
+    --red: rgb(255, 255, 255);
+    --grey: rgb(129, 5, 5);
+    --lightgrey: rgb(158, 158, 158);
+    --lightergrey: rgb(136, 136, 136);
+
+}
+
+/* Styling the About Me paragraphs */
+#about-me article p{
+
+    font-size: 300;
+    color: var(--red);
+
+}
+
+body{
+
+    background-color:var(--lightergrey);
+
+}
+
+h1{
+
+    color: var(--grey);
+
+}
+
+/* Styling for image located under the header */
+img{
+
+    width: 100%;
+    height: 200px;
+
+}
+
+/* Change the color of the links when clicked */
+a:visited{
+
+    color: var(--red)
+
+}
+
+header{
+
+    display: flex;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--grey);
+    color: #ffffff;
+    justify-content: flex-end;
+    color: var(--red)
+
+}
+
+    header h1{
+
+        display: flex;
+        font-size: 48px;
+
+    }
+
+    header nav {
+        align-items: flex-start;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+
+        header nav ul {
+
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+
+        }
+
+            header nav ul li {
+                
+                display: flex;
+                margin-left: 25px;
+                margin-right: 25px;
+                
+            }  
+
+/* General Left Items */
+.left{
+
+    flex-direction: column;
+    align-items: flex-end;
+    display: flex;
+    width: 25%;
+    padding: 1%;
+
+}
+
+    .left h1{
+
+        font-size: 36px;
+
+    }
+
+/* General Right Items */
+.right{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75%;
+    height: 100%;
+    padding: 1%;
+
+}
+
+#about-me .right p{
+
+    padding-bottom: 1%;
+
+}
+
+/* Holds About Me, Work, and Contact Me Sections */
+.large-container{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Specifics of the Right Side of the work section */
+.work-right{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75%;
+    height: 100%;
+    padding: 1%;
+    justify-content: space-around;
+
+}
+    /* Large item inside of the Work Section */
+    .work-right .large-work{
+    
+        display: flex;
+        width: 100%;
+        height: 400px;
+        margin: 1%;
+        padding: 5px;
+        background-color: var(--lightgrey);
+
+    }
+
+        .work-right .large-work div{
+
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            opacity: .7;
+
+        }
+
+        /* On hovering over the large item restore opacity */
+        .work-right .large-work div:hover{
+            
+            opacity: 1;
+
+        }
+
+        .work-right .large-work p{
+
+            position: absolute;
+            font-size: 25px;
+            background-color: var(--lightgrey);
+            padding: 10px;
+            border-radius: 0 10px 10px 0;
+        
+        }
+
+    /* Small items inside of the Work Section */
+    .work-right .small-work{
+    
+        display: flex;
+        width: 47%;
+        height: 200px;
+        margin: 1%;
+        padding: 5px;
+        background-color: var(--lightgrey);
+
+    }
+
+        .work-right .small-work div{
+
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            opacity: .7;
+        
+        }
+
+        /* On hovering over the small items restore opacity */
+        .work-right .small-work div:hover{
+        
+            opacity: 1;
+    
+        }
+
+        .work-right .small-work p{
+
+            position: absolute;
+            font-size: 25px;
+            background-color: var(--lightgrey);
+            padding: 10px;
+            border-radius: 0 10px 10px 0;
+        
+        }
+
+/* Styling for the larger containers holding the 3 left and rights */
+.left-and-right{
+
+    display: flex;
+    flex-direction: row;
+    background-color: var(--lightergrey);
+
+}
+
+/* Footer elements, Contact me elements */
+footer nav {
+    align-items: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+
+    footer nav ul {
+
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-top: 1%;
+
+        }
+
+        footer nav ul li {
+                
+                display: flex;
+                margin-left: 25px;
+            }  
