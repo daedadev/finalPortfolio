@@ -12,7 +12,7 @@ Link to the finished webpage hosted on Git: https://wron1.github.io/finalPortfol
 ## Usage
 
 Top section of the webpage
-![Screenshot 1](assets/images/portfolioScreenshot.PNG?raw=true)
+![Screenshot 1](Assets/images/portfolioScreenshot.PNG?raw=true)
 
 
 ## License
